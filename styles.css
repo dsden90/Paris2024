@@ -1,0 +1,73 @@
+@font-face {
+	font-family: lg;
+	src: url(fonts/lg_f4292655.ttf) format("truetype"), url(fonts/lg_1fbfd4bc.woff) format("woff"), url(fonts/lg_2ec2cb21.svg#lg) format("svg");
+	font-weight: 400;
+	font-style: normal;
+	font-display: block
+}
+@font-face {
+	font-family: Paris2024;
+	src: url(fonts/Paris2024-Variable_03cd1b21.woff2) format("woff2");
+	font-style: normal;
+	font-display: swap
+}
+@font-face {
+	font-family: Paris2024;
+	src: url(fonts/Paris2024-VariableItalic_498de891.woff2) format("woff2");
+	font-style: italic;
+	font-display: swap
+}
+
+:root {
+	--couleur-bleu-lavande: rgb(52, 18, 105);
+	--couleur-bleu-de-sevre: rgb(26, 24, 186);
+	--couleur-jaune-matisse: rgb(250, 185, 0);
+	--couleur-feuille-de-chene: rgb(0, 180, 96);
+	--couleur-vert-opera: rgb(110, 219, 215);
+	--couleur-corail-tahiti: rgb(255, 87, 87);
+	--couleur-rouge-amour: rgb(255, 0, 66);
+	--couleur-gris-zinc: rgb(140, 155, 149);
+
+	--couleur-bleu-lavande-fonce: rgb(52, 18, 105);
+	--couleur-bleu-de-sevre-fonce: rgb(26, 24, 186);
+	--couleur-jaune-matisse-fonce: rgb(250, 185, 0);
+	--couleur-feuille-de-chene-fonce: rgb(0, 180, 96);
+	--couleur-vert-opera-fonce: rgb(110, 219, 215);
+	--couleur-corail-tahiti-fonce: rgb(255, 87, 87);
+	--couleur-rouge-amour-fonce: rgb(255, 0, 66);
+	--couleur-gris-zinc-fonce: rgb(130, 145, 139);
+
+	--couleur-titre-un: rgb(237, 99, 93);
+	--couleur-titre-un-fonce: rgb(46, 24, 100);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f3f3f3;
+	color:  #FFF;
+	font-family:  Paris2024, sans-serif;
+	font-variation-settings: "wght" 740;
+	overflow: overflow-y;
+}
+#entete {
+	background:  url(imgs/haies.jpg);
+	background-position: 40% 30%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+#page { 
+	background-color: #FFF;
+	display: block;
+	border-top-right-radius: 10rem;
+	border-bottom-left-radius: 10rem;
+	box-shadow: 0 0 1.5rem rgba(0,0,0,.1);
+}
+#pied {
+	color: var(--couleur-gris-zinc);
+	text-align: center;
+	padding-top: 1em;
+	font-variation-settings: "wght" 400;
+}
